@@ -64,7 +64,7 @@ $renderer = new TemplateRenderer();
 $renderer->render(
     __DIR__ . '/templates/form.php',
     [
-        'organizaciones' => $organizaciones,
+        'organizaciones' => $organizations,
         'ucrmPublicUrl' => $optionsManager->loadOptions()->ucrmPublicUrl,
     ]
 );
